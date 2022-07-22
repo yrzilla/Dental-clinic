@@ -1,0 +1,105 @@
+.header {
+    background-color: #fff;
+    padding: 33px 0 31px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__location {
+        position: relative;
+        width: 190px;
+        margin-left: 60px;
+        &-title {
+            font-weight: 500;
+            font-size: 18px;
+            color: $second-color;
+            margin-left: 28px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 4px;
+                width: 20px;
+                height: 20px;
+                background: url(../icons/location.svg) center center/cover no-repeat;
+            }
+        }
+        &-address {
+            font-weight: 600;
+            font-size: 14px;
+            color:$main-color;
+        }
+    }
+    &__time {
+        position: relative;
+        width: 160px;
+        margin-left: 60px;
+        &-title {
+            font-weight: 500;
+            font-size: 18px;
+            color: $second-color;
+            margin-left: 30px;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 4px;
+                width: 20px;
+                height: 20px;
+                background: url(../icons/clock.svg) center center/cover no-repeat;
+            }
+        }
+        &-work {
+            font-weight: 400;
+            font-size: 14px;
+            color:$main-color;
+        }
+    }
+    &__social {
+        display: flex;
+        align-items: center;
+        width: 65px;
+        justify-content: space-between;
+        margin-left: 226px;
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        &-phone {
+            font-weight: 600;
+            font-size: 20px;
+            color: $main-color;
+            &:hover {
+                text-decoration: none;
+                color: $second-color;
+            }
+        }
+
+        &-link {
+            font-weight: 700;
+            font-size: 14px;
+            color: $second-color;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 296px;
+    &__name {
+        font-weight: 700;
+        font-size: 20px;
+        color: $second-color;
+        line-height: 24px;
+        margin-left: 19px;
+    }
+}

@@ -1,0 +1,65 @@
+.promo {
+    min-height: 700px;
+    padding: 92px 0 132px 0;
+    background: url('../../img/promo.jpg')center center/cover no-repeat;
+    margin-bottom: 228px;
+    &__title {
+        width: 926px;
+        font-weight: 700;
+        font-size: 58px;
+        color:$main-color;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        width: 630px;
+        font-weight: 600;
+        font-size: 28px;
+        color:$second-color;
+        margin-bottom: 60px;
+        line-height: 39px;
+    }
+    &__text {
+        width: 456px;
+        font-weight: 400;
+        font-size: 24px;
+        color:$main-color;
+        margin-bottom: 60px;
+        span {
+            color:$second-color;
+        }
+    }
+    &__cards {
+        position: absolute;
+        left: 100px;
+        bottom: -240px;
+        display: flex;
+        align-items: center;
+    }
+    &__card {
+        display: flex;
+        align-items: center;
+        background: #eef5f5;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        margin-right: 31px;
+        padding: 20px 25px 36px 25px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &-title {
+            font-weight: 600;
+            font-size: 24px;
+            color:$second-color;
+            margin-bottom: 10px;
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 18px;
+            color: #000;
+        }
+        div {
+            margin-left: 6px;
+        }
+    }
+}

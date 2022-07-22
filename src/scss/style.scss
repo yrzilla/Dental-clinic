@@ -1,0 +1,29 @@
+@import 'base/vars';
+@import 'base/mixins';
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+    font-family: "Gilroy", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+
+
+
