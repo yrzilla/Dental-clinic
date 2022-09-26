@@ -1,0 +1,30 @@
+.consultation {
+    min-height: 760px;
+    padding: 64px 0 45px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 410px;
+    }
+    img {
+        width: 100%;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #474551;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #474551;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+}

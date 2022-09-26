@@ -8,6 +8,7 @@
     font-family: "Gilroy", serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -20,10 +21,36 @@ a {
     text-decoration: none;
 }
 
+.title {
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+    color: #474551;
+    line-height: 50px;
+}
+
+.subtitle {
+    width: 1065px;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #099DBA;
+    line-height: 39px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    span {
+        font-weight: 700;
+        font-size: 28px;
+        color: $third-color;
+    }
+}
 
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/buttons';
+@import 'blocks/consultation';
+@import 'blocks/stock';
+@import 'blocks/service';
 
 
 
